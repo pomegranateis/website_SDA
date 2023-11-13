@@ -1,0 +1,22 @@
+.parent-div {
+    width: 1293px;
+    height: 832px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .FRAME-19-128 {
+    transform: rotate(0deg);
+    position: relative;
+    width: 1293px;
+    height: 832px;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 1);
+  }
+nav a:hover {
+    color: #C9C0C0;
+}

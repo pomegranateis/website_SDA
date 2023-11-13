@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'B612 Mono';
+    src: url('try/B612Mono-Regular.ttf') format('truetype'); 
+    font-weight: lighter;
+    font-style: normal;
+}
+.decorative-line {
+    width: 50%;
+    border-bottom: 50px solid #0066cc; /* Adjust the color and thickness of the line */
+    margin: 0 auto; /* Center the line */
+    color: #C9C0C0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D0EBC6;
+}
+h1.body{
+    font-family: 'B612 Mono', monospace;
+    color: #757272;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+
+}
+nav{
+    background-color: #D0EBC6;
+    height: 50px;
+    width: 100%;
+}
+nav ul{
+    padding:0;
+    float: right;
+    margin-right: 100px;
+    margin-top: -23%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3F7A4C;
+
+    font-family: 'B612 Mono', monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #C9C0C0;
+}
+
+/* Style for the section divider */
+.section-divider {
+    border: 1px solid #C9C0C0; /* Change color and style as needed */
+    height: 1px; /* Set the height to create a horizontal line */
+    background-color: #C9C0C0; 
+    margin: 0px 0; /* Adjust spacing as needed */
+}
